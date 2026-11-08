@@ -105,3 +105,19 @@ footer a {
         gap: 0.5rem;
     }
 }
+/* עיצוב רשת הגלריה - CSS Grid */
+.gallery-grid {
+    display: grid;
+    /* הגדרה רספונסיבית: מינימום 300 פיקסלים לכרטיסייה, מקסימום חלוקה שווה של המקום */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+    background-color: transparent;
+    box-shadow: none;
+    max-width: 1200px;
+}
+
+.gallery-grid .music-card {
+    margin-top: 0; /* דורס את המרווח העליון מעמוד הבית כדי שיתיישר ברשת */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
