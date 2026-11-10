@@ -128,7 +128,6 @@ section {
     max-width: 250px;
     height: auto;
     border-radius: 50%; /* הופך את תמונת האמן/אלבום לעגולה */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .music-card audio {
