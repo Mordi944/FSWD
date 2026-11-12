@@ -1,8 +1,12 @@
+/* Reset default spacing and use consistent box sizing */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* Default styles for the page body */
 
 body {
     font-family: Arial, sans-serif;
@@ -10,6 +14,8 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
+/* Main site header and navigation */
 
 header {
     background-color: #2c3e50;
@@ -20,10 +26,14 @@ header {
     align-items: center;
 }
 
+/* Layout for the navigation links */
+
 nav {
     display: flex;
     gap: 1.5rem;
 }
+
+/* Navigation link styles */
 
 nav a {
     color: #fff;
@@ -31,14 +41,20 @@ nav a {
     font-weight: bold;
 }
 
+/* Underline navigation links on hover */
+
 nav a:hover {
     text-decoration: underline;
 }
+
+/* Main content area of each page */
 
 main {
     padding: 2rem;
     text-align: center;
 }
+
+/* Base styles for content sections */
 
 section {
     background-color: #fff;
@@ -49,6 +65,8 @@ section {
     margin: 0 auto;
 }
 
+/* Shared footer area */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -57,11 +75,15 @@ footer {
     margin-top: 2rem;
 }
 
+/* Links in the footer */
+
 footer a {
     color: #a8d0e6;
     margin: 0 1rem;
     text-decoration: none;
 }
+
+/* Layout for a music composition card */
 
 .music-card {
     margin-top: 2rem;
@@ -75,22 +97,32 @@ footer a {
     border: 1px solid #ddd;
 }
 
+/* Artist image inside a music card */
+
 .music-card img {
     max-width: 250px;
     height: auto;
     border-radius: 50%;
 }
 
+/* Audio player inside a music card */
+
 .music-card audio {
     width: 100%;
     max-width: 300px;
 }
 
+/* Responsive styles for narrow screens */
+
 @media (max-width: 600px) {
+    /* Stack the header content vertically */
+
     header {
         flex-direction: column;
         text-align: center;
     }
+
+    /* Stack navigation links on narrow screens */
 
     nav {
         margin-top: 1rem;

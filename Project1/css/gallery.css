@@ -1,3 +1,5 @@
+/* Grid layout for the gallery cards */
+
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -7,6 +9,8 @@
     box-shadow: none;
     max-width: 1200px;
 }
+
+/* Adjust music cards for the gallery layout */
 
 .gallery-grid .music-card {
     margin-top: 0;

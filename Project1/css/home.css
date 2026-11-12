@@ -1,3 +1,5 @@
+/* Main hero section on the home page */
+
 .hero-section {
     padding: 3rem 2rem;
     max-width: 900px;
@@ -5,6 +7,8 @@
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
+
+/* Container for the hero image */
 
 .hero-image-container {
     width: 100%;
@@ -14,12 +18,16 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
+/* Hero image */
+
 .hero-image {
     width: 100%;
     height: auto;
     object-fit: cover;
     display: block;
 }
+
+/* Button linking to the music collection */
 
 .cta-button {
     display: inline-block;
@@ -35,15 +43,21 @@
     margin-top: 1rem;
 }
 
+/* Button appearance on hover */
+
 .cta-button:hover {
     background-color: #d35400;
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(230, 126, 34, 0.4);
 }
 
+/* Button appearance while active */
+
 .cta-button:active {
     transform: translateY(0);
 }
+
+/* Preview area for the featured composition */
 
 .featured-preview {
     max-width: 500px;
